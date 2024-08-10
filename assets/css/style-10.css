@@ -1,0 +1,1360 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+}
+                                                 /* HEADER-SECTION */
+                                                     /* navbar */
+                                                     
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}                                                                                             
+                                                                                                       
+.logo-container{
+    height: 50px;
+    width: 110px;
+}
+
+/* box-1 */
+
+.logo{
+    background-image: url(../img/logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* border and hover statement */
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/* box 2 */
+
+
+.deliver-1{
+    font-size: 0.80rem;
+    color: #cccccc;
+    margin-left: 16px;
+}
+
+.deliver-2{
+    font-size: 1.10rem;
+    margin-left: 3px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.nav-search{
+    background-color: orange;
+    width: 620px;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.Search1{
+    
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #f3f3f3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.Search2{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.Search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/* box 4 */
+
+span{
+    font-size: 0.75rem;
+}
+
+.Account{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/* box 6 */
+
+.cart i {
+    font-size: 35px;
+}
+
+.cart{
+    font-size: 0.80rem;
+    font-weight: bold;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+  
+}
+
+.panel-options a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    margin-left:30px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size:0.80rem
+}
+
+.panel-all{
+    margin-left: 20px;
+}
+
+                                               /* MAIN */
+
+.main-section{
+    background-image: url(../img/main.png);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main-msg{
+    color: #0f1111;
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom:20px ;
+}
+
+.main-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+   /* Shop section  */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #dff2f5;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+        color: #007185;
+}
+
+                                             /* Footer */
+
+.footer{
+    margin-top: 15px;
+}
+
+                                        /* foot-panel-1 */
+
+.foot-panel-1 a{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    text-decoration: none;
+}          
+
+                                        /* foot-panel-2 */  
+
+.foot-panel-2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+                                        /* foot-panel-3 */
+
+.foot-panel-3{
+    background-color: #000000;
+    color: white;
+    border-top: 0.5px solid rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+                                        /* foot-panel-4 */
+
+.foot-panel-4{
+    background-color: #222f3d;
+    color: white;
+}
+
+.page{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+                                         /* Media querries */
+/* Width-1190px */
+@media only screen and (max-width:1190px){
+                                         /* HEADER_SECTION */
+                                            /* search-bar */
+    .nav-search{
+        background-color: orange;
+        width: 500px;
+        height: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 3px;
+    }
+                                            /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+    }
+    .box{
+        height: 350px;
+        width: 23%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    
+    .box-img{
+        height: 280px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+    }
+    
+    .box-content{
+        margin-left: 0.75rem;
+        margin-right: 1rem;
+    }
+    
+    .box-content p{
+            color: #007185;
+    }
+    .box-3{
+        font-size: 10px;
+    }
+    
+    
+}
+/* Width-1024px */
+@media only screen and (max-width:1024px){
+                                            /* HEADER_SECTION */
+                                              /* search-bar */
+    .nav-search{
+        background-color: orange;
+        width: 400px;
+        height: 35px;
+        display: flex ;
+        justify-content: space-evenly;
+        border-radius: 3px;
+    }
+    .deliver-1{
+        font-size: 0.65rem;
+        color: #cccccc;
+        margin-left: 16px;
+    }
+    
+    .deliver-2{
+        font-size: 0.95rem;
+        margin-left: 3px;
+    }
+    
+    .location{
+        display: flex;
+        align-items: center;
+        font-size: 0.90rem;
+    }
+    span{
+        font-size: 0.65rem;
+    }
+    
+    .Account{
+        font-weight: bold;
+        font-size: 0.85rem;
+    }
+    .cart i {
+        font-size: 30px;
+    }
+                                                  /* main-msg */
+    .main-msg{
+        color: #0f1111;
+        background-color: white;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.85rem;
+        width: 90%;
+        margin-bottom:20px ;
+        font-size: 12px;
+    }
+                                                /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+    }
+    
+    .box{
+        height: 300px;
+        width: 23%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 8px;
+    }
+    
+    .box-img{
+        height: 250px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+    }
+    
+    .box-content{
+        margin-left: 0.75rem;
+        margin-right: 1rem;
+    }
+    
+    .box-content p{
+            color: #007185;
+    }
+    .box-3{
+        font-size: 8px;
+    }
+   
+    .main-section{
+        background-image: url(../img/main.png);
+        height: 350px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+                                        /* FOOTER_SECTION */
+    ul{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    ul a{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.75rem;
+        color: #dddddd;
+    }
+}   
+/* Width-900px */
+@media only screen and (max-width:900px){
+                                         /* HEADER_SECTION */
+                                           /* search-bar */
+    .nav-search{
+        background-color: orange;
+        width: 280px;
+        height: 35px;
+        display: flex ;
+        justify-content: space-evenly;
+        border-radius: 3px;
+}
+.logo{
+    background-image: url(../img/logo.png);
+    height: 45px;
+    width: 95%;
+    background-size: cover;
+}
+    .deliver-1{
+        font-size: 0.70rem;
+        color: #cccccc;
+        margin-left: 16px;
+}
+
+    .deliver-2{
+        font-size: 0.95rem;
+        margin-left: 3px;
+}
+
+    .location{
+        display: flex;
+        align-items: center;
+        font-size: 0.90 rem;
+}
+    span{
+        font-size: 0.60rem;
+}
+
+    .Account{
+        font-weight: bold;
+        font-size: 0.80rem;
+}
+    .cart i {
+        font-size: 30px;
+}
+          /* main-msg */
+    .main-msg{
+        color: #0f1111;
+        background-color: white;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.85rem;
+        width: 90%;
+        margin-bottom:20px ;
+        font-size: 10px;
+}
+        /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+}
+
+    .box{
+        height: 230px;
+        width: 24%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 7px;
+}
+
+    .box-img{
+        height: 200px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+}
+
+    .box-content{
+        margin-left: 0.75rem;
+        margin-right: 1rem;
+}
+
+    .box-content p{
+        color: #007185;
+}
+    .main-section{
+        background-image: url(../img/main.png);
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+}
+                                        /* FOOTER_SECTION */
+    .foot-panel-1{
+        margin-top: 10px;
+    }
+    ul{
+        margin-top: 20px;
+        margin-bottom: 10px;
+}
+
+    ul a{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.75rem;
+        color: #dddddd;
+}
+    .foot-panel-3{
+    background-color: #000000;
+    color: white;
+    border-top: 0.5px solid rgb(255, 255, 255);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+    .pk-mart-logo img{
+        height: 60px;
+    }
+}   
+/* Width-767px */
+@media only screen and (max-width:767px){
+                                      /* HEADER_SECTION */
+                                       /* search-bar */
+    .nav-search{
+        background-color: orange;
+        width: 250px;
+        height: 30px;
+        display: flex ;
+        justify-content: space-evenly;
+        border-radius: 3px;
+}
+.logo-container{
+    height: 50px;
+    width: 85px;
+}
+    .logo{
+        background-image: url(../img/logo.png);
+        height: 40px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 5px;
+}
+    .deliver-1{
+        font-size: 0.50rem;
+        color: #cccccc;
+        margin-left: 10px;
+}
+
+    .deliver-2{
+        font-size: 0.75rem;
+        margin-left: 2px;
+}
+
+    .location{
+        display: flex;
+        align-items: center;
+        font-size: 0.75rem;
+}
+.Search-icon i{
+    
+    padding-bottom: 10px;
+    font-size: medium;
+}
+.Search2{
+    width: 100%;
+    font-size: 0.80rem;
+    border: none;
+}
+    span{
+        font-size: 0.50rem;
+}
+
+    .Account{
+        font-weight: bold;
+        font-size: 0.70rem;
+}
+    .cart i {
+        font-size: 25px;
+}
+                                            /* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+  
+}
+
+.panel-options a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    margin-left:30px;
+}
+
+.panel-options{
+    width: 70%;
+    font-size:0.70rem
+}
+
+.panel-all{
+    margin-left: 20px;
+    font-size: 15px;
+}
+                                            /* main-msg */
+    .main-msg{
+        color: #0f1111;
+        background-color: white;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom:20px ;
+        font-size: 9px;
+}
+                                            /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+}
+
+    .box{
+        height: 200px;
+        width: 24%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 7px;
+}
+
+    .box-img{
+        height: 175px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+}
+
+    .box-content{
+        margin-left: 0.80rem;
+        margin-right: 1rem;
+       
+}
+    .box-content h2{
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+    .box-content p{
+        color: #007185;
+        
+}
+    .main-section{
+        background-image: url(../img/main.png);
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+}
+                                      /* FOOTER_SECTION */
+    .foot-panel-1{
+        margin-top: 2px;
+}
+    .foot-panel-1 a{
+        font-size: 10px;
+}
+    ul{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 0.90rem;
+}
+
+    ul a{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.70rem;
+        color: #dddddd;
+}
+    .foot-panel-3{
+        background-color: #000000;
+        color: white;
+        border-top: 0.5px solid rgb(255, 255, 255);
+        height: 60px;
+        display: flex;
+        justify-content: center;
+}
+    .pk-mart-logo img{
+        height: 60px;
+}
+}   
+
+/* Width-650px */
+@media only screen and (max-width:650px){
+                                         /* HEADER_SECTION */
+                                         /* search-bar */
+                                        
+    .navbar{
+        height: 50px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}                                    
+                                        
+    .nav-search{
+        background-color: orange;
+        width: 180px;
+        height: 25px;
+        display: flex ;
+        justify-content: space-evenly;
+        border-radius: 3px;
+}
+    .logo-container{
+        height: 30px;
+        width: 60px;
+        display: flex;
+       padding-bottom: 7px;
+
+}
+    .logo{
+        background-image: url(../img/logo.png);
+        height: 28px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 5px;
+}
+    .deliver-1{
+        font-size: 0.45rem;
+        color: #cccccc;
+        margin-left: 10px;
+}
+
+    .deliver-2{
+        font-size: 0.70rem;
+        margin-left: 2px;
+}
+
+    .location{
+        display: flex;
+        align-items: center;
+        font-size: 0.70rem;
+}
+    .Search-icon i{
+
+        padding-bottom: 10px;
+        font-size: medium;
+}
+    .Search2{
+        width: 100%;
+        font-size: 0.80rem;
+        border: none;
+}
+    span{
+        font-size: 0.50rem;
+}
+
+    .Account{
+        font-weight: bold;
+        font-size: 0.65rem;
+}
+    .cart i {
+        font-size: 25px;
+}
+          /* panel */
+
+    .panel{
+        height: 35px;
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        align-items: center;
+
+}
+
+    .panel-options a{
+        display: inline;
+        color: white;
+        text-decoration: none;
+        margin-left:15px;
+
+}
+
+    .panel-options{
+        width: 70%;
+        font-size:0.65rem
+}
+
+    .panel-all{
+        margin-left: 20px;
+        font-size: 15px;
+}
+                                           /* main-msg */
+    .main-msg{
+        color: #0f1111;
+        background-color: white;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom:20px ;
+        font-size: 7.5px;
+}
+                                            /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+}
+
+    .box{
+        height: 160px;
+        width: 24%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 5px;
+}
+
+    .box-img{
+        height: 140px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+}
+
+    .box-content{
+        margin-left: 0.80rem;
+        margin-right: 1rem;
+
+}
+    .box-content h2{
+        font-size: 7px;
+        margin-bottom: 5px;
+    
+}
+    .box-content p{
+        color: #007185;
+
+}
+    .main-section{
+        background-image: url(../img/main.png);
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+}
+                                          /* FOOTER_SECTION */
+    .foot-panel-1{
+       margin-bottom:0px ;
+        height: 35px;
+}
+    .foot-panel-1 a{
+        font-size: 10px;
+        height: 35px;
+}
+    ul{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 0.70rem;
+}
+
+    ul a{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.50rem;
+        color: #dddddd;
+}
+    .foot-panel-3{
+        background-color: #000000;
+        color: white;
+        border-top: 0.5px solid rgb(255, 255, 255);
+        height: 60px;
+        display: flex;
+        justify-content: center;
+}
+    .pk-mart-logo img{
+        height: 10px;
+      /* NOT WORKING */
+}
+    .copyright{
+        padding-top: 5px;
+        font-size: 0.5rem;
+        text-align: center;
+}
+}   
+/* Width-440px */
+@media only screen and (max-width:440px){
+                                            /* HEADER_SECTION */
+                                            /* search-bar */
+    
+    .navbar{
+        height: 40px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}                                    
+   
+    .nav-search{
+        background-color: orange;
+        width: 160px;
+        height: 20px;
+        display: flex ;
+        justify-content: space-evenly;
+        border-radius: 3px;
+}
+    .logo-container{
+        height: 17px;
+        width: 40px;
+        display: flex;
+        padding-bottom: 7px;
+        display: flex;
+        align-items: center;
+
+}
+    .logo{
+        background-image: url(../img/logo.png);
+        height: 16px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 5px;
+}
+    .deliver-1{
+        font-size: 0.30rem;
+        color: #cccccc;
+        margin-left: 10px;
+}
+
+    .deliver-2{
+        font-size: 0.40rem;
+        margin-left: 2px;
+}
+
+    .location{
+        display: flex;
+        align-items: center;
+        font-size: 0.35rem;
+}
+    .Search-icon i{
+
+        padding-bottom: 17px;
+        font-size: small;
+}
+    .Search1{
+        font-size: small;
+    }
+    .Search2{
+        width: 100%;
+        font-size: 0.70rem;
+        border: none;
+}
+    span{
+        font-size: 0.35rem;
+}
+
+    .Account{
+        font-weight: bold;
+        font-size: 0.50rem;
+}
+    .cart i {
+        font-size: 20px;
+}
+                                                /* panel */
+
+    .panel{
+        height: 32px;
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        align-items: center;
+
+}
+
+    .panel-options a{
+        display: inline;
+        color: white;
+        text-decoration: none;
+        margin-left:10px;
+
+}
+
+    .panel-options{
+        width: 70%;
+        font-size:0.50rem
+}
+
+    .panel-all{
+        margin-left: 20px;
+        font-size: 12px;
+}
+                                         /* main-msg */
+    .main-msg{
+        color: #0f1111;
+        background-color: white;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom:20px ;
+        font-size: 6px;
+}
+                                         /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+}
+
+    .box{
+        height: 130px;
+        width: 24%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 5px;
+}
+
+    .box-img{
+        height: 110px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+}
+
+    .box-content{
+        margin-left: 0.80rem;
+        margin-right: 1rem;
+
+}
+    .box-content h2{
+        font-size: 5.5px;
+        margin-bottom: 5px;
+
+}
+    .box-content p{
+        color: #007185;
+
+}
+ 
+    .main-section{
+        background-image: url(../img/main.png);
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+}
+     /* FOOTER_SECTION */
+    .foot-panel-1{
+        margin-bottom:0px ;
+        height: 35px;
+}
+    .foot-panel-1 a{
+        font-size: 10px;
+        height: 35px;
+}
+    ul{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 0.60rem;
+}
+
+    ul a{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.45 rem;
+        color: #dddddd;
+}
+    .foot-panel-3{
+        background-color: #000000;
+        color: white;
+        border-top: 0.5px solid rgb(255, 255, 255);
+        height: 60px;
+        display: flex;
+        justify-content: center;
+}
+    .pk-mart-logo img{
+        height: 10px;
+        /* NOT WORKING */
+}
+    .copyright{
+        padding-top: 5px;
+        font-size: 0.5rem;
+        text-align: center;
+}
+}   
+/* Width-320px */
+@media only screen and (max-width:440px){
+                                         /* HEADER_SECTION */
+                                         /* search-bar */
+
+    .navbar{
+        height: 30px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}                                    
+
+
+    .logo-container{
+        height: 17px;
+        width: 40px;
+        display: flex;
+        padding-bottom: 7px;
+        display: flex;
+        align-items: center;
+
+}
+    .logo{
+        background-image: url(../img/logo.png);
+        height: 17px;
+        width: 100%;
+        background-size: cover;
+       
+}
+    .deliver-1{
+        font-size: 0.20rem;
+        color: #cccccc;
+        margin-left: 6px;
+}
+
+    .deliver-2{
+        font-size: 0.30rem;
+        margin-left: 2px;
+}
+
+    .location{
+        display: flex;
+        align-items: center;
+        font-size: 0.30rem;
+}
+    .nav-search{
+        background-color: orange;
+        width: 150px;
+        height: 15px;
+        display: flex ;
+        justify-content: space-evenly;
+        border-radius: 3px;
+}
+    .Search-icon i{
+
+        padding-bottom: 25px;
+        font-size: 10px;
+}
+    .Search1{
+        font-size: 10px;
+}
+    .Search2{
+        width: 100%;
+        font-size: 0.52rem;
+        border: none;
+}
+   
+    span{
+        font-size: 0.25rem;
+}
+
+    .Account{
+        font-weight: bold;
+        font-size: 0.30rem;
+        padding-bottom: 3px;
+}
+    .cart{
+        font-size:0.30rem;
+        padding-left: 2px;
+    }
+    .cart i {
+        font-size:0.70rem ;
+        padding-top: 3px;
+}
+                                             /* panel */
+
+    .panel{
+        height: 25px;
+        background-color: #222f3d;
+        color: white;
+        display: flex;
+        align-items: center;
+
+}
+
+    .panel-options a{
+        display: inline;
+        color: white;
+        text-decoration: none;
+        margin-left:8px;
+
+}
+
+    .panel-options{
+        width: 70%;
+        font-size:0.40rem
+}
+
+    .panel-all{
+        margin-left: 20px;
+        font-size: 10px;
+}
+                                            /* main-msg */
+    .main-msg{
+        color: #0f1111;
+        background-color: white;
+        height: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin-bottom:20px ;
+        font-size: 4.5px;
+}
+                                            /* main-section */
+    .shop-section{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-evenly;
+        background-color: #dff2f5;
+}
+
+    .box{
+        height: 130px;
+        width: 45%;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        font-size: 5px;
+}
+
+    .box-img{
+        height: 110px;
+        background-size: cover;
+        margin-top: 0.20rem;
+        margin-bottom: 0.85rem;
+}
+
+    .box-content{
+        margin-left: 0.80rem;
+        margin-right: 1rem;
+
+}
+    .box-content h2{
+        font-size: 5.5px;
+        margin-bottom: 5px;
+
+}
+    .box-content p{
+        color: #007185;
+
+}
+
+    .main-section{
+        background-image: url(../img/main.png);
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+}
+                                            /* FOOTER_SECTION */
+    .foot-panel-1{
+        margin-bottom:0px ;
+        height: 35px;
+}
+    .foot-panel-1 a{
+        font-size: 10px;
+        height: 35px;
+}
+    ul{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 0.40rem;
+}
+
+    ul a{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.30rem;
+        color: #dddddd;
+}
+    .foot-panel-3{
+        background-color: #000000;
+        color: white;
+        border-top: 0.5px solid rgb(255, 255, 255);
+        height: 60px;
+        display: flex;
+        justify-content: center;
+}
+    .pk-mart-logo img{
+        height: 50px;
+        width: 50px;
+        /* NOT WORKING */
+}
+    .page{
+        font-size: 10px;
+}
+    .copyright{
+        padding-top: 5px;
+        font-size: 0.5rem;
+        text-align: center;
+}
+}   
